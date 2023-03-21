@@ -1,2 +1,4 @@
-console.log("Hello World");
-console.log("It a New Day")
+function one(val){
+    let display = document.getElementById("circle")
+    display.innerHTML += val
+}
